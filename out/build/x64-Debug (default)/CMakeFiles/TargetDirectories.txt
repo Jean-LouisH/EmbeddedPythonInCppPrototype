@@ -1,0 +1,5 @@
+C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/out/build/x64-Debug (default)/EmbeddedPythonInCppPrototype/CMakeFiles/EmbeddedPythonInCppPrototype.dir
+C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/out/build/x64-Debug (default)/EmbeddedPythonInCppPrototype/CMakeFiles/edit_cache.dir
+C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/out/build/x64-Debug (default)/EmbeddedPythonInCppPrototype/CMakeFiles/rebuild_cache.dir
