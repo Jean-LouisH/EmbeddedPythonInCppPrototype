@@ -3,7 +3,7 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project ("EmbeddedPythonInCppPrototype")
+project ("embedded_python_in_cpp_prototype")
 
 # Include sub-projects.
-add_subdirectory ("EmbeddedPythonInCppPrototype")
+add_subdirectory("src")

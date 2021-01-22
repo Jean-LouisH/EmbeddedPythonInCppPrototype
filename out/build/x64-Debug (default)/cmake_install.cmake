@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/out/build/x64-Debug (default)/EmbeddedPythonInCppPrototype/cmake_install.cmake")
+  include("C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/out/build/x64-Debug (default)/src/cmake_install.cmake")
 
 endif()
 

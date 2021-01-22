@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: EmbeddedPythonInCppPrototype
+# Project: embedded_python_in_cpp_prototype
 # Configurations: Debug
 # =============================================================================
 
@@ -62,71 +62,106 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/CMakeLists.txt
 # =============================================================================
 
-# =============================================================================
-# Object build statements for EXECUTABLE target EmbeddedPythonInCppPrototype
-
-
-#############################################
-# Order-only phony target for EmbeddedPythonInCppPrototype
-
-build cmake_object_order_depends_target_EmbeddedPythonInCppPrototype: phony || EmbeddedPythonInCppPrototype\CMakeFiles\EmbeddedPythonInCppPrototype.dir
-
-build EmbeddedPythonInCppPrototype\CMakeFiles\EmbeddedPythonInCppPrototype.dir\main.cpp.obj: CXX_COMPILER__EmbeddedPythonInCppPrototype_Debug ..\..\..\EmbeddedPythonInCppPrototype\main.cpp || cmake_object_order_depends_target_EmbeddedPythonInCppPrototype
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  OBJECT_DIR = EmbeddedPythonInCppPrototype\CMakeFiles\EmbeddedPythonInCppPrototype.dir
-  OBJECT_FILE_DIR = EmbeddedPythonInCppPrototype\CMakeFiles\EmbeddedPythonInCppPrototype.dir
-  TARGET_COMPILE_PDB = EmbeddedPythonInCppPrototype\CMakeFiles\EmbeddedPythonInCppPrototype.dir\
-  TARGET_PDB = EmbeddedPythonInCppPrototype\EmbeddedPythonInCppPrototype.pdb
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target EmbeddedPythonInCppPrototype
-
-
-#############################################
-# Link the executable EmbeddedPythonInCppPrototype\EmbeddedPythonInCppPrototype.exe
-
-build EmbeddedPythonInCppPrototype\EmbeddedPythonInCppPrototype.exe: CXX_EXECUTABLE_LINKER__EmbeddedPythonInCppPrototype_Debug EmbeddedPythonInCppPrototype\CMakeFiles\EmbeddedPythonInCppPrototype.dir\main.cpp.obj
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = EmbeddedPythonInCppPrototype\CMakeFiles\EmbeddedPythonInCppPrototype.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_COMPILE_PDB = EmbeddedPythonInCppPrototype\CMakeFiles\EmbeddedPythonInCppPrototype.dir\
-  TARGET_FILE = EmbeddedPythonInCppPrototype\EmbeddedPythonInCppPrototype.exe
-  TARGET_IMPLIB = EmbeddedPythonInCppPrototype\EmbeddedPythonInCppPrototype.lib
-  TARGET_PDB = EmbeddedPythonInCppPrototype\EmbeddedPythonInCppPrototype.pdb
-
 
 #############################################
 # Utility command for edit_cache
 
-build EmbeddedPythonInCppPrototype\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype\out\build\x64-Debug (default)\EmbeddedPythonInCppPrototype" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build src\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype\out\build\x64-Debug (default)\src" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build EmbeddedPythonInCppPrototype\edit_cache: phony EmbeddedPythonInCppPrototype\CMakeFiles\edit_cache.util
+build src\edit_cache: phony src\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build EmbeddedPythonInCppPrototype\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "C:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype\out\build\x64-Debug (default)\EmbeddedPythonInCppPrototype" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype -B"C:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype\out\build\x64-Debug (default)""
+build src\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype\out\build\x64-Debug (default)\src" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype -B"C:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype\out\build\x64-Debug (default)""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build EmbeddedPythonInCppPrototype\rebuild_cache: phony EmbeddedPythonInCppPrototype\CMakeFiles\rebuild_cache.util
+build src\rebuild_cache: phony src\CMakeFiles\rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/src/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target embedded_python_in_cpp_prototype
+
+
+#############################################
+# Order-only phony target for embedded_python_in_cpp_prototype
+
+build cmake_object_order_depends_target_embedded_python_in_cpp_prototype: phony || src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
+
+build src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\main.cpp.obj: CXX_COMPILER__embedded_python_in_cpp_prototype_Debug ..\..\..\src\embedded_python_in_cpp_prototype\main.cpp || cmake_object_order_depends_target_embedded_python_in_cpp_prototype
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
+  OBJECT_FILE_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
+  TARGET_COMPILE_PDB = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\
+  TARGET_PDB = src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.pdb
+
+build src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\hi_res_timer.cpp.obj: CXX_COMPILER__embedded_python_in_cpp_prototype_Debug ..\..\..\src\embedded_python_in_cpp_prototype\hi_res_timer.cpp || cmake_object_order_depends_target_embedded_python_in_cpp_prototype
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
+  OBJECT_FILE_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
+  TARGET_COMPILE_PDB = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\
+  TARGET_PDB = src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target embedded_python_in_cpp_prototype
+
+
+#############################################
+# Link the executable src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.exe
+
+build src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.exe: CXX_EXECUTABLE_LINKER__embedded_python_in_cpp_prototype_Debug src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\main.cpp.obj src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\hi_res_timer.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\
+  TARGET_FILE = src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.exe
+  TARGET_IMPLIB = src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.lib
+  TARGET_PDB = src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.pdb
+
+
+#############################################
+# Utility command for edit_cache
+
+build src\embedded_python_in_cpp_prototype\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype\out\build\x64-Debug (default)\src\embedded_python_in_cpp_prototype" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build src\embedded_python_in_cpp_prototype\edit_cache: phony src\embedded_python_in_cpp_prototype\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build src\embedded_python_in_cpp_prototype\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D "C:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype\out\build\x64-Debug (default)\src\embedded_python_in_cpp_prototype" && "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype -B"C:\Users\louis_000\Source\Repos\EmbeddedPythonInCppPrototype\out\build\x64-Debug (default)""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build src\embedded_python_in_cpp_prototype\rebuild_cache: phony src\embedded_python_in_cpp_prototype\CMakeFiles\rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
-build EmbeddedPythonInCppPrototype: phony EmbeddedPythonInCppPrototype\EmbeddedPythonInCppPrototype.exe
+build embedded_python_in_cpp_prototype: phony src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.exe
 
-build EmbeddedPythonInCppPrototype.exe: phony EmbeddedPythonInCppPrototype\EmbeddedPythonInCppPrototype.exe
+build embedded_python_in_cpp_prototype.exe: phony src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.exe
 
 # =============================================================================
 # Folder targets.
@@ -136,14 +171,21 @@ build EmbeddedPythonInCppPrototype.exe: phony EmbeddedPythonInCppPrototype\Embed
 #############################################
 # Folder: C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/out/build/x64-Debug (default)
 
-build all: phony EmbeddedPythonInCppPrototype\all
+build all: phony src\all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/out/build/x64-Debug (default)/EmbeddedPythonInCppPrototype
+# Folder: C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/out/build/x64-Debug (default)/src
 
-build EmbeddedPythonInCppPrototype\all: phony EmbeddedPythonInCppPrototype\EmbeddedPythonInCppPrototype.exe
+build src\all: phony src\embedded_python_in_cpp_prototype\all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/louis_000/Source/Repos/EmbeddedPythonInCppPrototype/out/build/x64-Debug (default)/src/embedded_python_in_cpp_prototype
+
+build src\embedded_python_in_cpp_prototype\all: phony src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.exe
 
 # =============================================================================
 # Built-in targets
@@ -152,14 +194,14 @@ build EmbeddedPythonInCppPrototype\all: phony EmbeddedPythonInCppPrototype\Embed
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt ..\..\..\EmbeddedPythonInCppPrototype\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.18.20081302-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ..\..\..\CMakeLists.txt ..\..\..\src\CMakeLists.txt ..\..\..\src\embedded_python_in_cpp_prototype\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.18.20081302-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ..\..\..\CMakeLists.txt ..\..\..\EmbeddedPythonInCppPrototype\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.18.20081302-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeSystem.cmake: phony
+build ..\..\..\CMakeLists.txt ..\..\..\src\CMakeLists.txt ..\..\..\src\embedded_python_in_cpp_prototype\CMakeLists.txt C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCXXInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeGenericSystem.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeRCInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\Windows.cmake C$:\Program$ Files$ (x86)\Microsoft$ Visual$ Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.18.20081302-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.18.20081302-MSVC_2\CMakeSystem.cmake: phony
 
 
 #############################################
