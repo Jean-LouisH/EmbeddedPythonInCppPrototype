@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: embedded_python_in_cpp_prototype
+# Project: Project
 # Configurations: Debug
 # =============================================================================
 
@@ -101,6 +101,7 @@ build cmake_object_order_depends_target_embedded_python_in_cpp_prototype: phony 
 
 build src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\main.cpp.obj: CXX_COMPILER__embedded_python_in_cpp_prototype_Debug ..\..\..\src\embedded_python_in_cpp_prototype\main.cpp || cmake_object_order_depends_target_embedded_python_in_cpp_prototype
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I..\..\..\src\embedded_python_in_cpp_prototype\..\..\thirdparty\python37\include
   OBJECT_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
   OBJECT_FILE_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
   TARGET_COMPILE_PDB = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\
@@ -108,6 +109,23 @@ build src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_pro
 
 build src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\hi_res_timer.cpp.obj: CXX_COMPILER__embedded_python_in_cpp_prototype_Debug ..\..\..\src\embedded_python_in_cpp_prototype\hi_res_timer.cpp || cmake_object_order_depends_target_embedded_python_in_cpp_prototype
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I..\..\..\src\embedded_python_in_cpp_prototype\..\..\thirdparty\python37\include
+  OBJECT_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
+  OBJECT_FILE_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
+  TARGET_COMPILE_PDB = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\
+  TARGET_PDB = src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.pdb
+
+build src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\cpp_to_python.cpp.obj: CXX_COMPILER__embedded_python_in_cpp_prototype_Debug ..\..\..\src\embedded_python_in_cpp_prototype\cpp_to_python.cpp || cmake_object_order_depends_target_embedded_python_in_cpp_prototype
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I..\..\..\src\embedded_python_in_cpp_prototype\..\..\thirdparty\python37\include
+  OBJECT_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
+  OBJECT_FILE_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
+  TARGET_COMPILE_PDB = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\
+  TARGET_PDB = src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.pdb
+
+build src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\python_to_cpp.cpp.obj: CXX_COMPILER__embedded_python_in_cpp_prototype_Debug ..\..\..\src\embedded_python_in_cpp_prototype\python_to_cpp.cpp || cmake_object_order_depends_target_embedded_python_in_cpp_prototype
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I..\..\..\src\embedded_python_in_cpp_prototype\..\..\thirdparty\python37\include
   OBJECT_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
   OBJECT_FILE_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
   TARGET_COMPILE_PDB = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\
@@ -121,10 +139,10 @@ build src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_pro
 #############################################
 # Link the executable src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.exe
 
-build src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.exe: CXX_EXECUTABLE_LINKER__embedded_python_in_cpp_prototype_Debug src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\main.cpp.obj src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\hi_res_timer.cpp.obj
+build src\embedded_python_in_cpp_prototype\embedded_python_in_cpp_prototype.exe: CXX_EXECUTABLE_LINKER__embedded_python_in_cpp_prototype_Debug src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\main.cpp.obj src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\hi_res_timer.cpp.obj src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\cpp_to_python.cpp.obj src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir\python_to_cpp.cpp.obj | ..\..\..\thirdparty\python37\lib\python37.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = ..\..\..\thirdparty\python37\lib\python37.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = src\embedded_python_in_cpp_prototype\CMakeFiles\embedded_python_in_cpp_prototype.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
