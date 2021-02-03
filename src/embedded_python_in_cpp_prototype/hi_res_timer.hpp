@@ -9,6 +9,7 @@ public:
 	uint64_t getDelta_ns();
 	void setStart();
 	void setEnd();
+	void printDelta_ms(const char* routineName);
 	HiResTimer() :
 		delta_ns(0)
 	{}

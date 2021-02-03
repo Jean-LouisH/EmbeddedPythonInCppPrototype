@@ -15,3 +15,11 @@ void HiResTimer::setEnd()
 	this->end = std::chrono::high_resolution_clock::now();
 	this->delta_ns = std::chrono::duration_cast<std::chrono::nanoseconds>(end - start).count();
 }
+
+void HiResTimer::printDelta_ms(const char* routineName)
+{
+	printf("%s took %d milliseconds\n\n", 
+		routineName, 
+		(int)((double)this->getDelta_ns() / (1000.0 * 1000.0))
+	);
+}
